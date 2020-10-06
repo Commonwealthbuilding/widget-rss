@@ -17,6 +17,10 @@ html {
   -ms-text-size-adjust: 100%; /* 2 */
   -webkit-text-size-adjust: 100%; /* 2 */
     vertical-align: middle; 
+    border: 1px solid #c3c3c3;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
 }
 
 /**
@@ -26,7 +30,11 @@ body, p {
   /* Display & Box Model */
   margin: 0;
   padding: 0;
-   vertical-align: middle;   
+  border: 1px solid #c3c3c3;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
 }
 
 /* =========================================================================
@@ -36,7 +44,10 @@ Custom Styling
 body {
   /* Visual */
   background-color: transparent;
-    vertical-align: middle;   
+    vertical-align: middle;     border: 1px solid #c3c3c3;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
 }
 
 .headline,
@@ -45,7 +56,10 @@ body {
 .author {
   margin: 0;
   padding: 10px;
-    vertical-align: middle; 
+    vertical-align: middle;   border: 1px solid #c3c3c3;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
 }
 
 .author, .timestamp {
@@ -59,11 +73,19 @@ body {
   margin: 0px;
   padding: 0px;
     vertical-align: middle; 
+    border: 1px solid #c3c3c3;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
 }
 
 .item {
   overflow: hidden;
     vertical-align: middle; 
+    border: 1px solid #c3c3c3;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
 }
 
 .custom-font {
@@ -87,7 +109,10 @@ body {
 #container {
   width: 100%;
   height: 100%;
-    vertical-align: middle; 
+    vertical-align: middle;   border: 1px solid #c3c3c3;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
 }
 
 #messageContainer .error-link {
@@ -102,23 +127,35 @@ body {
 
 #layout-4x1 .textWrapper {
   overflow: hidden;
-    vertical-align: middle;   
+    vertical-align: middle;     border: 1px solid #c3c3c3;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
 }
 
 #layout-2x1 .item {
   clear: left;
-    vertical-align: middle;   
+    vertical-align: middle;     border: 1px solid #c3c3c3;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
 }
 
 #layout-2x1 .story {
   overflow: hidden;
-    vertical-align: middle;   
+    vertical-align: middle;     border: 1px solid #c3c3c3;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
 }
 
 #layout-4x1 .image,
 #layout-2x1 .image {
   float: left;
-    vertical-align: middle;   
+    vertical-align: middle;     border: 1px solid #c3c3c3;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
 }
 
 #layout-16x9 .image {
