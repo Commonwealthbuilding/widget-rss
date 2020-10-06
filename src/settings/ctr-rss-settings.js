@@ -135,6 +135,7 @@ angular.module( "risevision.widget.rss.settings" )
           "size": "18px",
           "customSize": "",
           "align": "left",
+          "vertical-align": "middle";   
           "bold": true,
           "italic": false,
           "underline": false,
