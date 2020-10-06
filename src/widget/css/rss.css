@@ -16,6 +16,7 @@ html {
   font-family: sans-serif; /* 1 */
   -ms-text-size-adjust: 100%; /* 2 */
   -webkit-text-size-adjust: 100%; /* 2 */
+    vertical-align: middle; 
 }
 
 /**
@@ -44,10 +45,12 @@ body {
 .author {
   margin: 0;
   padding: 10px;
+    vertical-align: middle; 
 }
 
 .author, .timestamp {
   display: inline-block;
+    vertical-align: middle; 
 }
 
 .image {
@@ -55,14 +58,17 @@ body {
   max-height: 100%;
   margin: 0px;
   padding: 0px;
+    vertical-align: middle; 
 }
 
 .item {
   overflow: hidden;
+    vertical-align: middle; 
 }
 
 .custom-font {
   visibility: hidden;
+    vertical-align: middle; 
 }
 
 .fade-in, .fade-out {
@@ -81,14 +87,17 @@ body {
 #container {
   width: 100%;
   height: 100%;
+    vertical-align: middle; 
 }
 
 #messageContainer .error-link {
   color: blue;
+    vertical-align: middle; 
 }
 
 #scroller {
   display: none;
+    vertical-align: middle; 
 }
 
 #layout-4x1 .textWrapper {
