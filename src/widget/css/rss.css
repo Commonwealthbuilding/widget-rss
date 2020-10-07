@@ -1,3 +1,22 @@
+<div id="layout-4x1">
+  <article class="item fade-in" style="height: 204px; overflow-wrap: break-word;display: flex;
+  flex-wrap: wrap;
+  align-content: center;">
+
+    <div class="textWrapper">
+
+      <div class="meta">
+
+
+
+      </div>
+      <p class="story story_font-style" style="text-align: left;">
+
+      </p>
+    </div>
+  </article>
+</div>
+<style>
   
 /* =========================================================================
    CSS Reset
@@ -90,19 +109,32 @@ body {
 
 .custom-font {
   visibility: hidden;
-    vertical-align: middle; 
+    display: flex;
+  flex-wrap: wrap;
+  align-content: center;">
+
 }
 
 .fade-in, .fade-out {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;">
+  
   -webkit-transition: opacity 1s;
   transition: opacity 1s;
 }
 
 .fade-out, .hide {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;">
   opacity: 0;
 }
 
 .fade-in {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;">
   opacity: 1;
 }
 
@@ -162,3 +194,14 @@ body {
   display: block;
     vertical-align: middle;   
 }
+
+
+
+#layout-4x1 .item-fade-in {
+
+
+display: flex;
+  flex-wrap: wrap;
+  align-content: center;">
+
+</style>
